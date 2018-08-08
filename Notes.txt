@@ -7,3 +7,8 @@
                        XMLWebApplicationContext
 6. Spring Modules
 7. ApplicationContext vs BeanFactory
+8. Spring Bean Scope : Singleton, Prototype, Request, Session, GlobalSession
+9. Spring Bean Configuration : Complete XML, XML Plus Annotation, Complete Annotation(Java Config)
+10. XML Plus Annotation - @Component, @Service, @Repository, @Controller , @RestController
+11. Bean Autowiring
+12. Bean Autowiring modes - no , name, type, constructor

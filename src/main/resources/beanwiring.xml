@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean class="com.nsv.springframework.beanwiring.Circle" id="circle"/>
+
+    <!--//Autowiring by name - Looks for the setter method with the beanNameToBeInjected - set+"circle" bean
+    public void setCircle(Shape shape) {
+    this.shape = shape;
+    }-->
+    <!--<bean class="com.nsv.springframework.beanwiring.ShapeCreator" id="shapeCreator" autowire="byName" />-->
+
+<!--    byType-->
+<!--    <bean class="com.nsv.springframework.beanwiring.ShapeCreator" id="shapeCreator" autowire="byType" />-->
+
+<!--    by constructor-->
+<!--    <bean class="com.nsv.springframework.beanwiring.ShapeCreator" id="shapeCreator" autowire="constructor" />-->
+
+<!--    by default-->
+<!--
+    <bean class="com.nsv.springframework.beanwiring.ShapeCreator" id="shapeCreator" autowire="default" />
+
+-->
+
+    <bean class="com.nsv.springframework.beanwiring.ShapeCreator" id="shapeCreator">
+        <property name="shape" ref="circle" />
+    </bean>
+
+
+</beans>
