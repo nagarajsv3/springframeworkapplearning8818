@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="076429d2-fe77-4ab8-9515-b2552e0a689c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/springframeworkapplearning8818.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/Circle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/LooseCouplingMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/Rectangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/Shape.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/ShapeCreator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/loosecoupling/Triangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/Circle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/Rectangle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/Shape.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/ShapeFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/TightCouplingMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nsv/springframework/tightcoupling/factorydesignpattern/Triangle.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -378,12 +364,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533740351868</updated>
       <workItem from="1533740356398" duration="3533000" />
-      <workItem from="1533747171915" duration="49000" />
+      <workItem from="1533747171915" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3582000" />
+    <option name="totallyTimeSpent" value="3746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
