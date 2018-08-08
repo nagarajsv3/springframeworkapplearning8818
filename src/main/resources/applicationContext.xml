@@ -4,12 +4,19 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean class="com.nsv.springframework.loosecoupling.Circle" id="circle" />
-    <bean class="com.nsv.springframework.loosecoupling.Rectangle" id="rectangle" />
-    <bean class="com.nsv.springframework.loosecoupling.Triangle" id="triangle" />
+    <bean class="com.nsv.springframework.loosecoupling.Circle" id="circle"/>
+    <bean class="com.nsv.springframework.loosecoupling.Rectangle" id="rectangle"/>
+    <bean class="com.nsv.springframework.loosecoupling.Triangle" id="triangle"/>
 
+    <!--    Setter Based Dependency Injection-->
+
+    <!--    <bean class="com.nsv.springframework.loosecoupling.ShapeCreator" id="shapeCreator">
+            <property name="shape" ref="circle" />
+        </bean>-->
+
+    <!--    Constructor Based Dependency Injection-->
     <bean class="com.nsv.springframework.loosecoupling.ShapeCreator" id="shapeCreator">
-        <property name="shape" ref="circle" />
+        <constructor-arg name="shape" ref="circle" />
     </bean>
 
 </beans>

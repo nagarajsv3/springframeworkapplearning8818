@@ -1,3 +1,9 @@
 1. Tight Coupling
 2. Loose Coupling - Factory Design Pattern
 3. Loose Coupling - Spring Framework
+4. Dependency Injection Types - Setter and Constructor
+5. App Context types - ClassPathXMLApplicationContext,
+                       FileSystemXMLApplicationContext
+                       XMLWebApplicationContext
+6. Spring Modules
+7. ApplicationContext vs BeanFactory
