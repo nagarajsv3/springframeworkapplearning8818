@@ -12,3 +12,7 @@
 10. XML Plus Annotation - @Component, @Service, @Repository, @Controller , @RestController
 11. Bean Autowiring
 12. Bean Autowiring modes - no , name, type, constructor
+13. Defining Constants & DataStructures
+14. Bean Aliasing
+15. Reading from property files
+16. Importing resources

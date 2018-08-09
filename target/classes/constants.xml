@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:constant static-field="com.nsv.springframework.constants.ApplicationConstants.COMPANY_NAME" id="companyName" />
+
+
+    <util:list id="companyLocations">
+        <value>New York</value>
+        <value>Delaware</value>
+        <value>New Jersey</value>
+    </util:list>
+
+    <util:map id="companyLocationMap">
+        <entry key="NY" value="New York" />
+        <entry key="DE" value="Delaware" />
+        <entry key="NJ" value="New Jersey" />
+    </util:map>
+
+    <bean class="com.nsv.springframework.constants.Employee" id="employee" scope="prototype">
+        <property name="companyName" ref="companyName" />
+        <property name="companyLocations" ref="companyLocations" />
+        <property name="companyLocationsGlobalMap" ref="companyLocationMap" />
+        <property name="companyLocationsLocalMap">
+            <map>
+                <entry key="NE" value="Newark" />
+                <entry key="WI" value="Wilmington" />
+            </map>
+        </property>
+
+    </bean>
+
+    <alias name="employee" alias="emp" />
+
+    <bean class="com.nsv.springframework.constants.Company" id="company">
+        <property name="employee" ref="emp" />
+    </bean>
+
+
+</beans>
