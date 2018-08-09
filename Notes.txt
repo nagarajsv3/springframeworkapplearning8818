@@ -20,3 +20,9 @@
 18. abstract
 19. Inheritance
 20. LookUp Method Dependency Injection
+21. Spring Bean LifeCycle - BeanNameAware, BeanFactoryAware, InitializingBean, DisposableBean, BeanPostProcessor
+22. Java Configuration - AnnotationConfigApplicationContext, @Bean , @Scope
+            @Configuration,
+            @ComponentScan
+            @PropertySources with Autowired Environment
+            Property set using @Value("${}")
