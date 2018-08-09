@@ -16,3 +16,7 @@
 14. Bean Aliasing
 15. Reading from property files
 16. Importing resources
+17. Lazy Init
+18. abstract
+19. Inheritance
+20. LookUp Method Dependency Injection

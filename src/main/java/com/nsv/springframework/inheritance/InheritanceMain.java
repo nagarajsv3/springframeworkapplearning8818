@@ -6,8 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class InheritanceMain {
     public static void main(String[] args) {
-
-
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("inheritance.xml");
         Contractor contractor = applicationContext.getBean("contractor", Contractor.class);
         System.out.println(contractor.getCompanyName());
