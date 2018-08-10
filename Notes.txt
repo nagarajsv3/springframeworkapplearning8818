@@ -26,3 +26,5 @@
             @ComponentScan
             @PropertySources with Autowired Environment
             Property set using @Value("${}")
+23. Spring Data
+24. Spring Data JDBC - package springjdbc
