@@ -28,3 +28,8 @@
             Property set using @Value("${}")
 23. Spring Data
 24. Spring Data JDBC - package springjdbcxmlconfig springjdbcjavaconfig
+25. Spring Bean Profiling - @Profile("dev")
+             Setting profile
+                    1. System.setProperty("spring.profiles.active","dev")
+                    2. Updating tomcat catalina properties
+                    3. updating system/env properties on the server

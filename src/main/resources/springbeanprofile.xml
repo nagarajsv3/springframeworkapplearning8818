@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <context:annotation-config />
+    <context:component-scan base-package="com.nsv.springframework.springbeanprofilesxml"/>
+
+    <bean class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <bean class="com.nsv.springframework.springbeanprofilesxml.Author" id="author">
+        <property name="title" value="${title}" />
+    </bean>
+
+
+    <beans profile="dev">
+
+        <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" id="propertiesbean">
+            <property name="locations" >
+                <list>
+                    <value>app-dev.properties</value>
+                    <value>connection-dev.properties</value>
+                </list>
+            </property>
+        </bean>
+
+        <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
+            <property name="driverClassName" value="${datasource.driverclassname}" />
+            <property name="url"      value="${datasource.url}" />
+            <property name="username" value="${datasource.username}" />
+            <property name="password" value="${datasource.userpassword}" />
+        </bean>
+
+        <bean class="com.nsv.springframework.springbeanprofilesxml.Book" id="book">
+            <property name="name" value="DevBook" />
+        </bean>
+
+    </beans>
+
+    <beans profile="prod">
+        <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" id="propertiesbean">
+            <property name="locations" >
+                <list>
+                    <value>app-prod.properties</value>
+                    <value>connection-prod.properties</value>
+                </list>
+            </property>
+        </bean>
+
+        <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" id="dataSource">
+            <property name="driverClassName" value="${datasource.driverclassname}" />
+            <property name="url"      value="${datasource.url}" />
+            <property name="username" value="${datasource.username}" />
+            <property name="password" value="${datasource.userpassword}" />
+        </bean>
+
+        <bean class="com.nsv.springframework.springbeanprofilesxml.Book" id="book">
+            <property name="name" value="ProdBook" />
+        </bean>
+
+    </beans>
+
+</beans>
