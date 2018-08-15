@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63eb2c15-6520-44f6-90f3-c34115a04031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigDev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigProd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesxml/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesxml/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesxml/SpringProfileXMLConfigMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/connection-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/connection-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springbeanprofile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +16,9 @@
     <session id="1806443356">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,12 +61,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigDev.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="85">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigProd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="578">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -258,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,6 +314,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -461,28 +449,28 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -564,9 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,14 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,28 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,9 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,39 +635,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springjdbcduplicateforpractise">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="17" lean-forward="true" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springjdbcduplicateforpractise" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springjdbcxmlconfigduplicateforpractise/Clerk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="99" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="34" column="5" lean-forward="true" selection-start-line="21" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,90 +765,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/BookProd.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/BookDev.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/BookProd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/app-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigDev.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigProd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/BookDev.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -957,13 +794,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/SpringProfileJavaConfigMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/Author.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        <state relative-caret-position="85">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigDev.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/springframework/springbeanprofilesjava/AppConfigProd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

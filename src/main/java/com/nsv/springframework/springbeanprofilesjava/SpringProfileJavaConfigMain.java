@@ -13,8 +13,6 @@ public class SpringProfileJavaConfigMain {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         Author author = applicationContext.getBean(Author.class);
         System.out.println(author.getTitle());
-
-
         ((AnnotationConfigApplicationContext)applicationContext).close();
 
     }
